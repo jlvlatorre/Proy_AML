@@ -1,7 +1,7 @@
 # Load the Data
 import pandas as pd
 
-df = pd.read_csv(r"C:\Users\manoj\OneDrive\Desktop\360DigiTMG\Project\Money_Laundering_Dataset.csv")
+df = pd.read_csv(r"C:\Users\Jose\Documents\Cumplimiento\Money_Laundering_Dataset.csv")
 
 # Auto EDA
 # ---------
@@ -27,7 +27,7 @@ s.show_html()
 from autoviz.AutoViz_Class import AutoViz_Class
 
 av = AutoViz_Class()
-a = av.AutoViz(r"C:\Users\manoj\OneDrive\Desktop\360DigiTMG\Project\Money_Laundering_Dataset.csv", chart_format = 'html')
+a = av.AutoViz(r"C:\Users\Jose\Documents\Cumplimiento\Money_Laundering_Dataset.csv", chart_format = 'html')
 
 import os
 os.getcwd()
